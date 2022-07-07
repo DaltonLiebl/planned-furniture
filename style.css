@@ -1,0 +1,54 @@
+*{ 
+    margin: 0;
+}
+:root{ 
+    --orange:hsl(36, 100%, 50%);
+    --paragraph: hsl(257, 6%, 50%);
+    --line: hsl(210, 19%, 94%);
+}
+span, footer a { 
+    color: orange;
+}
+body{ 
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    min-width:100vh;
+}
+.all{ 
+    width: 592px;
+    margin: auto ;
+}
+.all h1 { 
+    margin-top: 72px;
+    margin-bottom: 32px;
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+}
+.all p{ 
+color: var(--paragraph);
+font-size: 14px;
+line-height: 28px;
+margin-bottom: 72px;
+}
+.line{ 
+border: 1px solid var(--line);
+width: 568px;
+margin: auto;
+margin-bottom: 8px;
+}
+ul { 
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 25px;
+}
+ul a{ 
+    text-decoration: none;
+    font-size: 14px;
+}
+.balls{ 
+   position: fixed;
+    bottom: 0px;
+    right:0px
+}
