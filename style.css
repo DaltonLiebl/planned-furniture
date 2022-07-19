@@ -13,7 +13,7 @@ main{
     margin: auto;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +56,7 @@ ul a{
 
 .line{ 
     border: 1px solid #ECEFF2;
-    width: 40.0rem;
+    width: 30.0rem;
     margin-bottom: 1rem;
 }
 
@@ -67,6 +67,7 @@ ul a{
     opacity: 0;
 }
 @media(min-width:40rem){ 
+
 
     main img{ 
         width: 120%
