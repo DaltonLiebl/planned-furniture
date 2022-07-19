@@ -64,6 +64,7 @@ ul a{
     position: absolute;
     right: 0;
     bottom: 0;
+    opacity: 0;
 }
 @media(min-width:40rem){ 
 
@@ -82,6 +83,12 @@ ul a{
         border: 1px solid #ECEFF2;
         width: 50.0rem;
         margin-bottom: 1rem;
+    }
+    #balls{ 
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        opacity: 1;
     }
 }
 
@@ -103,5 +110,11 @@ ul a{
         border: 1px solid #ECEFF2;
         width: 56.8rem;
         margin-bottom: 1rem;
+    }
+    #balls{ 
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        opacity: 1;
     }
 }
